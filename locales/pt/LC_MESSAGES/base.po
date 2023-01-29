@@ -1,0 +1,396 @@
+# A simple editor that allows you to edit, encrypt/decrypt text.
+# Copyright (C) Tiago C. Teixeira
+# Tiago C. Teixeira <xpto@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2022-12-11 20:55+0000\n"
+"PO-Revision-Date: 2022-12-12 17:31+0000\n"
+"Last-Translator: Tiago C. Teixeira <xpto@gmail.com>\n"
+"Language-Team: Portuguese <xpto2@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 41.0\n"
+
+
+#: MessageDialogs.py:20 MessageDialogs.py:49
+msgid "Title"
+msgstr "Título"
+
+#: MessageDialogs.py:39
+msgid "Close"
+msgstr "Fechar"
+
+#: MessageDialogs.py:73
+msgid "Yes"
+msgstr "Sim"
+
+#: MessageDialogs.py:75
+msgid "No"
+msgstr "Não"
+
+#: PwdDialog.py:28
+msgid "Enter Password"
+msgstr "Palavra-passe"
+
+#: PwdDialog.py:43 main.py:247 main.py:797
+msgid "OK"
+msgstr "OK"
+
+#: PwdDialog.py:45 main.py:245 main.py:527 main.py:599 main.py:799
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: main.py:167
+msgid "_Search"
+msgstr "Procurar"
+
+#: main.py:169
+msgid "_Find"
+msgstr "Encontrar"
+
+#: main.py:171
+msgid "_Find Next"
+msgstr "Encontrar Próximo"
+
+#: main.py:173
+msgid "_Find Previous"
+msgstr "Encontrar Anterior"
+
+#: main.py:175
+msgid "_Find And Replace"
+msgstr "Encontrar e Substituir"
+
+#: main.py:179
+msgid "_Document"
+msgstr "Documento"
+
+#: main.py:181
+msgid "_Encrypt"
+msgstr "Encriptar"
+
+#: main.py:183
+msgid "_Decrypt"
+msgstr "Desencriptar"
+
+#: main.py:185
+msgid "_Auto Indent"
+msgstr "Identação automática"
+
+#: main.py:187
+msgid "_Tab Size"
+msgstr "Tamanho Do Tabulador"
+
+#: main.py:189 main.py:314 main.py:327
+msgid "_Other"
+msgstr "_Outro"
+
+#: main.py:191
+msgid "_Insert Spaces"
+msgstr "Inserir Espaços"
+
+#: main.py:195
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: main.py:197
+msgid "_New"
+msgstr "_Novo"
+
+#: main.py:199
+msgid "_Open"
+msgstr "_Abrir"
+
+#: main.py:201
+msgid "_Open Encrypted Text"
+msgstr "_Abrir texto encriptado"
+
+#: main.py:203
+msgid "_Save"
+msgstr "_Salvar"
+
+#: main.py:205
+msgid "_Save As"
+msgstr "_Salvar Como"
+
+#: main.py:207
+msgid "_Quit"
+msgstr "_Sair"
+
+#: main.py:211
+msgid "_Edit"
+msgstr "_Editar"
+
+#: main.py:213
+msgid "_Cut"
+msgstr "_Cortar"
+
+#: main.py:215
+msgid "_Copy"
+msgstr "_Copiar"
+
+#: main.py:217
+msgid "_Paste"
+msgstr "_Colar"
+
+#: main.py:219
+msgid "_Delete"
+msgstr "_Eliminar"
+
+#: main.py:221
+msgid "_Select All"
+msgstr "_Seleccionar Tudo"
+
+#: main.py:225
+msgid "_View"
+msgstr "_Vista"
+
+#: main.py:227
+msgid "_Word Wrap"
+msgstr "_Quebrar Linha"
+
+#: main.py:229
+msgid "_Select Font"
+msgstr "_Seleccionar Fonte"
+
+#: main.py:232
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: main.py:234
+msgid "_About"
+msgstr "_Sobre"
+
+#: main.py:249
+msgid "Select Tab Size"
+msgstr "Tamanho Da Guia"
+
+#: main.py:486
+msgid "Col"
+msgstr "Coluna"
+
+#: main.py:486
+msgid "Line"
+msgstr "Linha"
+
+#: main.py:494
+msgid "File"
+msgstr "Ficheiro"
+
+#: main.py:497
+msgid "Encrypted"
+msgstr "Encriptado"
+
+#: main.py:503
+msgid "Locked"
+msgstr "Bloqueado"
+
+#: main.py:519
+msgid "Please choose a file"
+msgstr "Por favor seleccione um ficheiro"
+
+#: main.py:525
+msgid "Open"
+msgstr "Abrir"
+
+#: main.py:533
+msgid "All files (*.*)"
+msgstr "Todos os ficheiros (*.*)"
+
+#: main.py:537 main.py:603
+msgid "Encrypted text File (*.encrypted)"
+msgstr "Ficheiros de texto encriptados (*.encrypted)"
+
+#: main.py:542 main.py:609
+msgid "Text file (*.txt)"
+msgstr "Ficheiros de texto (*.txt)"
+
+#: main.py:586
+msgid "Please enter new file name"
+msgstr "Por favor introduza o nome do novo ficheiro"
+
+#: main.py:588
+msgid "Save as ..."
+msgstr "Salvar Como ..."
+
+#: main.py:597
+msgid "Save As"
+msgstr "Salvar Como"
+
+#: main.py:658
+msgid "File already exists"
+msgstr "O ficheiro já existe"
+
+#: main.py:658
+msgid "Warning message"
+msgstr "Mensagem De Aviso"
+
+#: main.py:659
+msgid "Please choose another filename."
+msgstr "Por favor escolha outro nome de ficheiro"
+
+#: main.py:681 main.py:725 main.py:739
+msgid "Warning Message"
+msgstr "Mensagem De Aviso"
+
+#: main.py:682
+msgid "Current file has changed. All changes will be lost!"
+msgstr "O ficheiro actual foi alterado. Todas as alterações serão perdidas!"
+
+#: main.py:684
+msgid "Do you really want to close?"
+msgstr "Tem a certeza que pretende sair?"
+
+#: main.py:705
+msgid "Are you sure you want to continue and lose all pending changes?"
+msgstr "Tem a certeza que pretende continuar e assim perder todas as alterações pendentes?"
+
+#: main.py:705
+msgid "Confirmation"
+msgstr "Confirmação"
+
+#: main.py:705
+msgid ""
+"Your changes have not yet been saved.\n"
+"\n"
+msgstr "As suas alterações ainda não foram salvas.\n\n"
+
+#: main.py:726 main.py:740
+msgid "There are pending changes that have not yet been saved."
+msgstr "Existem alterações pendentes que ainda não foram salvas."
+
+#: main.py:728 main.py:742
+msgid "Do you want to continue anyway and lose all pending changes?"
+msgstr "Deseja mesmo assim continuar e perder todas as alterações pendentes?"
+
+# msgid "Close"
+# msgstr "Fechar"
+
+# msgid "All"
+# msgstr "Todos"
+
+# msgid "Replace"
+# msgstr "Substituir"
+
+#: main.py:387
+msgid "Insert Tabs"
+msgstr "Inserir Guias"
+
+
+msgid "Preferences"
+msgstr "Preferências"
+
+#: main.py:388
+msgid "Insert Spaces"
+msgstr "Inserir espaços"
+
+
+#: main.py:794
+msgid "Select Font"
+msgstr "Seleccione Uma Fonte"
+
+#: main.py:832
+msgid "Copyright {} (c) Tiago C. Teixeira"
+msgstr "Todos os direitos reservados {} (c) Tiago C. Teixeira"
+
+#: main.py:834
+msgid "Copyright {}-{} (c) Tiago C. Teixeira"
+msgstr "Todos os direitos reservados {}-{} (c) Tiago C. Teixeira"
+
+#: main.py:837
+msgid "A simple editor that allows you to edit, encrypt and decrypt text files."
+msgstr "Um simples editor que permite editar, encriptar e desencriptar ficheiros de texto."
+
+#: main.py:1104
+msgid "Failed to decrypt"
+msgstr "Falhou ao desencriptar"
+
+#: main.py:1104
+msgid "Invalid password!"
+msgstr "Palavra-passe inválida!"
+
+
+#: main.py:291
+msgid "_Preferences"
+msgstr "Preferências"
+
+#: main.py:831
+msgid "Unable to save current application settings!"
+msgstr "Não foi possível salvar as configurações actuais!"
+
+#: main.py:840
+msgid "Do you want to close anyway?"
+msgstr "Deseja mesmo assim fechar a aplicação?"
+
+#: main.py:880
+# msgid "Are you sure you want to continue and lose all pending changes?"
+# msgstr "Tem a certeza que quer continuar e assim perder todas as alterações pendentes?"
+
+#: main.py:333
+msgid "Display"
+msgstr "Visualização"
+
+#: main.py:336
+msgid "Wrap long lines"
+msgstr "Enrolar linhas longas"
+
+#: main.py:339
+msgid "Font"
+msgstr "Fonte"
+
+#: main.py:345
+msgid "Idiom"
+msgstr "Idioma"
+
+#: main.py:351
+msgid "View"
+msgstr "Vista"
+
+#: main.py:354
+msgid "Editor"
+msgstr "Editor"
+
+#: main.py:357
+msgid "Indentation"
+msgstr "Indentação"
+
+#: main.py:360
+msgid "Tab width:"
+msgstr "Largura da guia:"
+
+#: main.py:363
+msgid "Tab mode:"
+msgstr "Modo da guia:"
+
+#: main.py:366
+msgid "Enable automatic indentation"
+msgstr "Indentação automática"
+
+#: main.py:314
+msgid "Replace"
+msgstr "Substituir"
+
+#: main.py:317
+msgid "All"
+msgstr "Tudo"
+
+#: Settings.py:177
+msgid "An error occurred while writing config file."
+msgstr ""
+
+#: Settings.py:212
+msgid "An error occurred while reading config file. Default values will be used."
+msgstr ""
+
+#: main.py:174
+msgid "Config"
+msgstr ""
+
+msgid "Clear Highlights"
+msgstr "Limpar Destaques"
+

@@ -1,0 +1,62 @@
+
+1- Create "locales" folder
+2- In Gnu-Linux command console run
+        'pygettext3 -d base -o locales/base.pot file1.py file2.py file3.py ...'
+
+
+That will generate a base.pot file in the locales folder taken from our main.py program.
+Remember that POT files are just templates and we should not touch them.
+
+3- We are going to create 2 additional folders inside the locales dir like that:
+
+    $localedir/$language/LC_MESSAGES/$domain.po
+
+    Where:
+
+        $localedir is locale
+        $language is en and el   (en - English, el = Greek, ...)
+        $domain is base
+
+    The .po  files will contain the translations we need to provide.
+
+4- Copy and rename the base.pot  into the following folders locale/en/LC_MESSAGES/base.po and
+    locale/el/LC_MESSAGES/base.po. Then modify their headers to include more information about the locale.
+    For example, this is the Greek translation.
+
+    # My App.
+    # Copyright (C) 2018
+    #
+    msgid ""
+    msgstr ""
+    "Project-Id-Version: 1.0\n"
+    "POT-Creation-Date: 2018-01-28 16:47+0000\n"
+    "PO-Revision-Date: 2018-01-28 16:48+0000\n"
+    "Last-Translator: me <johndoe@example.com>\n"
+    "Language-Team: Greek <yourteam@example.com>\n"
+    "MIME-Version: 1.0\n"
+    "Content-Type: text/plain; charset=UTF-8\n"
+    "Content-Transfer-Encoding: 8bit\n"
+    "Generated-By: pygettext.py 1.5\n"
+    #: main.py:5
+    msgid "Hello world"
+    msgstr "Χέρε Κόσμε"
+    #: main.py:6
+    msgid "This is a translatable string"
+    msgstr "Αυτό είναι ένα μεταφραζόμενο κείμενο"
+
+The catalog is built from the .po  file using a tool called msgformat.py. This tool will parse
+the .po  file and generate an equivalent .mo  file. We mentioned before that the MO files
+are binary data files that are parsed by the Python gettext module in order to be used in our program.
+
+5- Run msgfmt in 'locales/el/LC_MESSAGES' folder        // Greek language for example
+
+    $ cd locales/el/LC_MESSAGES
+    $ msgfmt -o base.mo base
+
+    This command will generate a base.mo file in the same folder as the base.po  file.
+
+To force a given language
+
+    pt = gettext.translation('base', localedir='locales', languages=['pt'])
+    pt.install()
+    _ = pt.gettext  # Portuguese

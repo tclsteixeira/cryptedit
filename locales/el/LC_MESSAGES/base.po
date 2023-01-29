@@ -1,0 +1,399 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tiago C. Teixeira <xpto@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2022-12-11 20:55+0000\n"
+"PO-Revision-Date: 2022-12-13 17:48+0000\n"
+"Last-Translator: Tiago C. Teixeira <xpto@gmail.com>\n"
+"Language-Team: Portuguese <xpto2@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 41.0\n"
+
+#: MessageDialogs.py:13 MessageDialogs.py:41
+msgid "Title"
+msgstr "τίτλος"
+
+
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#: main.py:387
+msgid "Insert Tabs"
+msgstr "Εισαγωγή καρτελών"
+
+#: main.py:388
+msgid "Insert Spaces"
+msgstr "Εισαγωγή διαστημάτων"
+
+#: MessageDialogs.py:32
+msgid "_Close"
+msgstr "Κλείσε"
+
+msgid "Close"
+msgstr "Κλείσε"
+
+#: PwdDialog.py:13
+msgid "Enter Password"
+msgstr "Εισάγετε τον κωδικό πρόσβασης"
+
+#: PwdDialog.py:37 main.py:242
+msgid "OK"
+msgstr "Εντάξει"
+
+#: PwdDialog.py:39 main.py:240 main.py:519 main.py:591
+msgid "Cancel"
+msgstr "Ματαίωση"
+
+#: main.py:162
+msgid "_Search"
+msgstr "Αναζήτηση"
+
+#: main.py:164
+msgid "_Find"
+msgstr "εύρημα"
+
+#: main.py:166
+msgid "_Find Next"
+msgstr "βρείτε το επόμενο"
+
+#: main.py:168
+msgid "_Find Previous"
+msgstr "Εύρεση Προηγούμενου"
+
+#: main.py:170
+msgid "_Find And Replace"
+msgstr "Βρίσκω και αντικαθιστώ"
+
+#: main.py:174
+msgid "_Document"
+msgstr "έγγραφο"
+
+#: main.py:176
+msgid "_Encrypt"
+msgstr "Κρυπτογράφηση"
+
+#: main.py:178
+msgid "_Decrypt"
+msgstr "αποκρυπτογράφηση"
+
+#: main.py:180
+msgid "_Auto Indent"
+msgstr "Αυτόματη εσοχή"
+
+#: main.py:182
+msgid "_Tab Size"
+msgstr "Μέγεθος καρτέλας"
+
+#: main.py:184
+msgid "_Other"
+msgstr "Αλλα"
+
+#: main.py:186
+msgid "_Insert Spaces"
+msgstr "Εισαγωγή διαστημάτων"
+
+#: main.py:190
+msgid "_File"
+msgstr "Αρχείο"
+
+#: main.py:192
+msgid "_New"
+msgstr "Νέος"
+
+#: main.py:194
+msgid "_Open"
+msgstr "Ανοιξε"
+
+#: main.py:196
+msgid "_Open Encrypted Text"
+msgstr "Ανοίξτε το κρυπτογραφημένο κείμενο"
+
+#: main.py:198
+msgid "_Save"
+msgstr "Αποθηκεύσετε"
+
+#: main.py:200
+msgid "_Save As"
+msgstr "Αποθήκευση ως"
+
+#: main.py:202
+msgid "_Quit"
+msgstr "Εγκαταλείπω"
+
+#: main.py:206
+msgid "_Edit"
+msgstr "Επεξεργασία"
+
+#: main.py:208
+msgid "_Cut"
+msgstr "Τομή"
+
+#: main.py:210
+msgid "_Copy"
+msgstr "αντίγραφο"
+
+#: main.py:212
+msgid "_Paste"
+msgstr "Επικόλληση"
+
+#: main.py:214
+msgid "_Delete"
+msgstr "Διαγράφω"
+
+#: main.py:216
+msgid "_Select All"
+msgstr "Επιλογή όλων"
+
+#: main.py:220
+msgid "_View"
+msgstr "Θέα"
+
+#: main.py:222
+msgid "_Word Wrap"
+msgstr "Αναδίπλωση λέξεων"
+
+#: main.py:224
+msgid "_Select Font"
+msgstr "Επιλέξτε Γραμματοσειρά"
+
+#: main.py:227
+msgid "_Help"
+msgstr "Βοήθεια"
+
+#: main.py:229
+msgid "_About"
+msgstr "Σχετικά με"
+
+#: main.py:244
+msgid "Select Tab Size"
+msgstr "Επιλέξτε Μέγεθος καρτέλας"
+
+#: main.py:309
+msgid "Other"
+msgstr "Αλλα"
+
+#: main.py:321
+msgid "Other ({})"
+msgstr "Αλλα ({})"
+
+#: main.py:478
+msgid "Col"
+msgstr "Στήλη"
+
+#: main.py:478
+msgid "Line"
+msgstr "Γραμμή"
+
+#: main.py:493
+msgid "File"
+msgstr "Αρχείο"
+
+#: main.py:489
+msgid "Encrypted"
+msgstr "Κρυπτογραφημένο"
+
+#: main.py:495
+msgid "Locked"
+msgstr "Κλειδωμένο"
+
+#: main.py:511
+msgid "Please choose a file"
+msgstr "Επιλέξτε ένα αρχείο"
+
+#: main.py:517
+msgid "Open"
+msgstr "Ανοιξε"
+
+#: main.py:525
+msgid "All files (*.*)"
+msgstr "Ολα τα αρχεία (*.*)"
+
+#: main.py:529 main.py:595
+msgid "Encrypted text File (*.encrypted)"
+msgstr "Κρυπτογραφημένο αρχείο κειμένου (*.κρυπτογραφημένο)"
+
+#: main.py:534 main.py:601
+msgid "Text file (*.txt)"
+msgstr "Αρχείο κειμένου (*.txt)"
+
+#: main.py:578
+msgid "Please enter new file name"
+msgstr "Εισαγάγετε νέο όνομα αρχείου"
+
+#: main.py:580
+msgid "Save as ..."
+msgstr "Αποθήκευση ως ..."
+
+#: main.py:589
+msgid "Save As"
+msgstr "Αποθήκευση ως"
+
+#: main.py:650
+msgid "File already exists"
+msgstr "ο φάκελος υπάρχει ήδη"
+
+#: main.py:650
+msgid "Warning message"
+msgstr "Προειδοποιητικό μήνυμα"
+
+#: main.py:651
+msgid "Please choose another filename."
+msgstr "Επιλέξτε άλλο όνομα αρχείου."
+
+#: main.py:673 main.py:717 main.py:731
+msgid "Warning Message"
+msgstr "Προειδοποιητικό μήνυμα"
+
+#: main.py:674
+msgid "Current file has changed. All changes will be lost!"
+msgstr "Το τρέχον αρχείο έχει αλλάξει. Όλες οι αλλαγές θα χαθούν!"
+
+#: main.py:676
+msgid "Do you really want to close?"
+msgstr "Θέλετε πραγματικά να κλείσετε;"
+
+#: main.py:697
+msgid "Are you sure you want to continue and lose all pending changes?"
+msgstr "Είστε βέβαιοι ότι θέλετε να συνεχίσετε και να χάσετε όλες τις εκκρεμείς αλλαγές;"
+
+#: main.py:697
+msgid "Confirmation"
+msgstr "Επιβεβαίωση"
+
+#: main.py:697
+msgid "Your changes have not yet been saved.\n\n"
+msgstr "Οι αλλαγές σας δεν έχουν αποθηκευτεί ακόμη.\n\n"
+
+#: main.py:718 main.py:732
+msgid "There are pending changes that have not yet been saved."
+msgstr "Εκκρεμούν αλλαγές που δεν έχουν ακόμη αποθηκευτεί."
+
+#: main.py:720 main.py:734
+msgid "Do you want to continue anyway and lose all pending changes?"
+msgstr "Θέλετε να συνεχίσετε ούτως ή άλλως και να χάσετε όλες τις εκκρεμείς αλλαγές;"
+
+#: main.py:820
+msgid "Copyright {} (c) Tiago C. Teixeira"
+msgstr "Πνευματικά δικαιώματα {} (γ) Tiago C. Teixeira"
+
+#: main.py:822
+msgid "Copyright {}-{} (c) Tiago C. Teixeira"
+msgstr "Πνευματικά δικαιώματα {}-{} (γ) Tiago C. Teixeira"
+
+#: main.py:825
+msgid "A simple editor that allows you to edit, encrypt and decrypt text files."
+msgstr "Ένα απλό πρόγραμμα επεξεργασίας που σας επιτρέπει να επεξεργάζεστε, κρυπτογραφείτε και αποκρυπτογραφείτε αρχεία κειμένου."
+
+#: main.py:1092
+msgid "Failed to decrypt"
+msgstr "Απέτυχε η αποκρυπτογράφηση"
+
+#: main.py:1092
+msgid "Invalid password!"
+msgstr "Λανθασμένος κωδικός!"
+
+msgid "Yes"
+msgstr "Ναί"
+
+msgid "No"
+msgstr "Οχι"
+
+#: main.py:793
+msgid "Select Font"
+msgstr "Επιλέξτε Γραμματοσειρά"
+
+#: MessageDialogs.py:39
+#msgid "Close"
+#msgstr "Κλείσε"
+
+
+
+#: main.py:831
+msgid "Unable to save current application settings!"
+msgstr "Δεν είναι δυνατή η αποθήκευση των τρεχουσών ρυθμίσεων της εφαρμογής!"
+
+#: main.py:840
+msgid "Do you want to close anyway?"
+msgstr "Θέλετε να κλείσετε πάντως;"
+
+#: main.py:880
+# msgid "Are you sure you want to continue and lose all pending changes?"
+# msgstr "Είστε βέβαιοι ότι θέλετε να συνεχίσετε και να χάσετε όλες τις εκκρεμείς αλλαγές;"
+
+#: main.py:291
+msgid "_Preferences"
+msgstr "Προτιμήσεις"
+
+#: main.py:333
+msgid "Display"
+msgstr "Απεικόνιση"
+
+#: main.py:336
+msgid "Wrap long lines"
+msgstr "Τυλίξτε μακριές γραμμές"
+
+#: main.py:339
+msgid "Font"
+msgstr "Γραμματοσειρά"
+
+#: main.py:345
+msgid "Idiom"
+msgstr "Ιδίωμα"
+
+#: main.py:351
+msgid "View"
+msgstr "Θέα"
+
+#: main.py:354
+msgid "Editor"
+msgstr "Συντάκτης"
+
+#: main.py:357
+msgid "Indentation"
+msgstr "Εσοχή"
+
+#: main.py:360
+msgid "Tab width:"
+msgstr "Πλάτος καρτέλας:"
+
+#: main.py:363
+msgid "Tab mode:"
+msgstr "Λειτουργία καρτελών:"
+
+#: main.py:366
+msgid "Enable automatic indentation"
+msgstr "Ενεργοποίηση αυτόματης εσοχής"
+
+#: main.py:314
+msgid "Replace"
+msgstr "Αντικαθιστώ"
+
+#: main.py:317
+msgid "All"
+msgstr "Ολα"
+
+#: Settings.py:177
+msgid "An error occurred while writing config file."
+msgstr "Παρουσιάστηκε σφάλμα κατά την εγγραφή του αρχείου διαμόρφωσης."
+
+#: Settings.py:212
+msgid "An error occurred while reading config file. Default values will be used."
+msgstr "Παρουσιάστηκε σφάλμα κατά την ανάγνωση του αρχείου διαμόρφωσης. Θα χρησιμοποιηθούν προεπιλεγμένες τιμές."
+
+#: main.py:174
+msgid "Config"
+msgstr "Διαμόρφωση"
+
+msgid "Clear Highlights"
+msgstr "Καθαρίστε τα κύρια σημεία"
+
+

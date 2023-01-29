@@ -1,0 +1,382 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR ORGANIZATION
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Tiago C. Teixeira <xpto@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"POT-Creation-Date: 2022-12-11 20:55+0000\n"
+"PO-Revision-Date: 2022-12-12 17:36+0000\n"
+"Last-Translator: Tiago C. Teixeira <xpto@gmail.com>\n"
+"Language-Team: Portuguese <xpto2@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: pt\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Generator: Gtranslator 41.0\n"
+
+
+#: MessageDialogs.py:13 MessageDialogs.py:41
+msgid "Title"
+msgstr ""
+
+#: MessageDialogs.py:32
+msgid "_Close"
+msgstr "_Close"
+
+#: PwdDialog.py:13
+msgid "Enter Password"
+msgstr "Enter Password"
+
+#: PwdDialog.py:37 main.py:242
+msgid "OK"
+msgstr ""
+
+#: PwdDialog.py:39 main.py:240 main.py:519 main.py:591
+msgid "Cancel"
+msgstr ""
+
+#: main.py:162
+msgid "_Search"
+msgstr ""
+
+#: main.py:164
+msgid "_Find"
+msgstr ""
+
+#: main.py:166
+msgid "_Find Next"
+msgstr ""
+
+#: main.py:168
+msgid "_Find Previous"
+msgstr ""
+
+#: main.py:170
+msgid "_Find And Replace"
+msgstr ""
+
+#: main.py:174
+msgid "_Document"
+msgstr ""
+
+#: main.py:176
+msgid "_Encrypt"
+msgstr ""
+
+#: main.py:178
+msgid "_Decrypt"
+msgstr ""
+
+#: main.py:180
+msgid "_Auto Indent"
+msgstr ""
+
+#: main.py:182
+msgid "_Tab Size"
+msgstr ""
+
+#: main.py:184
+msgid "_Other"
+msgstr ""
+
+#: main.py:186
+msgid "_Insert Spaces"
+msgstr ""
+
+#: main.py:190
+msgid "_File"
+msgstr ""
+
+#: main.py:192
+msgid "_New"
+msgstr ""
+
+#: main.py:194
+msgid "_Open"
+msgstr ""
+
+#: main.py:196
+msgid "_Open Encrypted Text"
+msgstr "_Open Encrypted Text"
+
+#: main.py:198
+msgid "_Save"
+msgstr "_Save"
+
+#: main.py:200
+msgid "_Save As"
+msgstr "_Save As"
+
+#: main.py:202
+msgid "_Quit"
+msgstr ""
+
+#: main.py:206
+msgid "_Edit"
+msgstr ""
+
+#: main.py:208
+msgid "_Cut"
+msgstr ""
+
+#: main.py:210
+msgid "_Copy"
+msgstr ""
+
+#: main.py:212
+msgid "_Paste"
+msgstr ""
+
+#: main.py:214
+msgid "_Delete"
+msgstr ""
+
+#: main.py:216
+msgid "_Select All"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+#: main.py:291
+msgid "_Preferences"
+msgstr ""
+
+#: main.py:220
+msgid "_View"
+msgstr ""
+
+#: main.py:222
+msgid "_Word Wrap"
+msgstr ""
+
+#: main.py:224
+msgid "_Select Font"
+msgstr ""
+
+#: main.py:227
+msgid "_Help"
+msgstr ""
+
+#: main.py:229
+msgid "_About"
+msgstr ""
+
+#: main.py:244
+msgid "Select Tab Size"
+msgstr ""
+
+#: main.py:309
+msgid "Other"
+msgstr ""
+
+#: main.py:321
+msgid "Other ({})"
+msgstr ""
+
+#: main.py:478
+msgid "Col"
+msgstr ""
+
+#: main.py:478
+msgid "Line"
+msgstr ""
+
+#: main.py:489
+msgid "Encrypted"
+msgstr ""
+
+#: main.py:495
+msgid "Locked"
+msgstr ""
+
+#: main.py:511
+msgid "Please choose a file"
+msgstr ""
+
+#: main.py:517
+msgid "Open"
+msgstr ""
+
+#: main.py:525
+msgid "All files (*.*)"
+msgstr ""
+
+#: main.py:529 main.py:595
+msgid "Encrypted text File (*.encrypted)"
+msgstr ""
+
+#: main.py:534 main.py:601
+msgid "Text file (*.txt)"
+msgstr ""
+
+#: main.py:578
+msgid "Please enter new file name"
+msgstr ""
+
+#: main.py:580
+msgid "Save as ..."
+msgstr ""
+
+#: main.py:589
+msgid "Save As"
+msgstr ""
+
+#: main.py:650
+msgid "File already exists"
+msgstr ""
+
+#: main.py:650
+msgid "Warning message"
+msgstr ""
+
+#: main.py:651
+msgid "Please choose another filename."
+msgstr ""
+
+#: main.py:673 main.py:717 main.py:731
+msgid "Warning Message"
+msgstr ""
+
+#: main.py:674
+msgid "Current file has changed. All changes will be lost!"
+msgstr ""
+
+#: main.py:676
+msgid "Do you really want to close?"
+msgstr ""
+
+#: main.py:697
+msgid "Are you sure you want to continue and lose all pending changes?"
+msgstr ""
+
+#: main.py:697
+msgid "Confirmation"
+msgstr ""
+
+#: main.py:697
+msgid ""
+"Your changes have not yet been saved.\n"
+"\n"
+msgstr ""
+
+#: main.py:718 main.py:732
+msgid "There are pending changes that have not yet been saved."
+msgstr ""
+
+#: main.py:720 main.py:734
+msgid "Do you want to continue anyway and lose all pending changes?"
+msgstr ""
+
+#: main.py:820
+msgid "Copyright {} (c) Tiago C. Teixeira"
+msgstr ""
+
+#: main.py:822
+msgid "Copyright {}-{} (c) Tiago C. Teixeira"
+msgstr ""
+
+#: main.py:825
+msgid "A simple editor that allows you to edit, encrypt and decrypt text files."
+msgstr ""
+
+#: main.py:1092
+msgid "Failed to decrypt"
+msgstr ""
+
+#: main.py:1092
+msgid "Invalid password!"
+msgstr ""
+
+#: main.py:493
+msgid "File"
+msgstr "File"
+
+
+
+#: main.py:831
+msgid "Unable to save current application settings!"
+msgstr ""
+
+#: main.py:840
+msgid "Do you want to close anyway?"
+msgstr ""
+
+#: main.py:880
+# msgid "Are you sure you want to continue and lose all pending changes?"
+# msgstr ""
+
+#: main.py:387
+msgid "Insert Tabs"
+msgstr ""
+
+#: main.py:388
+msgid "Insert Spaces"
+msgstr ""
+
+#: main.py:333
+msgid "Display"
+msgstr ""
+
+#: main.py:336
+msgid "Wrap long lines"
+msgstr ""
+
+#: main.py:339
+msgid "Font"
+msgstr ""
+
+#: main.py:345
+msgid "Idiom"
+msgstr ""
+
+#: main.py:351
+msgid "View"
+msgstr ""
+
+#: main.py:354
+msgid "Editor"
+msgstr ""
+
+#: main.py:357
+msgid "Indentation"
+msgstr ""
+
+#: main.py:360
+msgid "Tab width:"
+msgstr ""
+
+#: main.py:363
+msgid "Tab mode:"
+msgstr ""
+
+#: main.py:366
+msgid "Enable automatic indentation"
+msgstr ""
+
+#: main.py:314
+msgid "Replace"
+msgstr ""
+
+#: main.py:317
+msgid "All"
+msgstr ""
+
+#: Settings.py:177
+msgid "An error occurred while writing config file."
+msgstr ""
+
+#: Settings.py:212
+msgid "An error occurred while reading config file. Default values will be used."
+msgstr ""
+
+#: main.py:174
+msgid "Config"
+msgstr ""
+
+msgid "Clear Highlights"
+msgstr "Clear Highlights"

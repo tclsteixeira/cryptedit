@@ -1,0 +1,4 @@
+include main_window.glade, config.ini, crypteditlogo.svg
+graft /locales
+crypteditlogo.png
+config.ini
