@@ -29,6 +29,11 @@ gi.require_version("Gtk", "3.0")
 
 
 def define_globals():
+    """
+    Defines global variables.
+    :return: None
+    :rtype: Any
+    """
     global APP_NAME
     APP_NAME = 'Cryptedit'
     global builder
